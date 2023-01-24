@@ -6,7 +6,7 @@ on:
     - cron: "0 0 27 * *"
 name: ci/cd release
 jobs:
-  build:
+  build 📦:
     name: build
     runs-on: ubuntu-latest
     steps:
@@ -21,7 +21,7 @@ jobs:
         run: npm i pnpm && pnpm i 
       - name: build application
         run: pnpm build
-  release-please:
+  release-please 🦜:
     runs-on: ubuntu-latest
     needs: build
     steps:
