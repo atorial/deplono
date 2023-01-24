@@ -18,13 +18,13 @@ jobs:
           node-version: 16
           cache: npm
       - name: install dependencies
-        run: yarn
+        run: npn i -g @vercel/ncc && yarn
       - name: build application
         run: yarn prod
   release-please :
     runs-on: ubuntu-latest
     needs: build
-    name: create a release-pr
+    name: create a release-pr 🦜
     steps:
       - uses: google-github-actions/release-please-action@v3
         with:
