@@ -1,7 +1,8 @@
 # 🦜 Deplono 
 >Dev team quick notifcatation and colaboration action.
 
-[![ci/cd release](https://github.com/atorial/deplono/actions/workflows/releaser.yml/badge.svg)](https://github.com/atorial/deplono/actions/workflows/releaser.yml)
+![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/atorial/deplono/releaser.yml) ![GitHub issues](https://img.shields.io/github/issues/atorial/deplono) ![GitHub milestones](https://img.shields.io/github/milestones/all/atorial/deplono) ![GitHub forks](https://img.shields.io/github/forks/atorial/deplono) ![GitHub release (latest by date)](https://img.shields.io/github/downloads/atorial/deplono/latest/total) ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/atorial/deplono)
+ 
 
 This action is aimed at automating software development testing, release and and deployment. It connects developers to decision makers, managers, collaborators and users. Managers can follow work done  in a sprint or daily tasks and make informed decisions on projects in their organization, they do not have to register a github account for that matter but they have full access to dentrimental information that concerns them.. 
 
