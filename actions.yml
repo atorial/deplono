@@ -1,0 +1,29 @@
+name: 'deplono'
+description: 'Development, testing and release notification for vigilant teams.'
+inputs:
+  type:  # id of input
+    description: 'the action to triger'
+    required: true
+    default: 'mail' # auxiliary options are [sms,slack,teams,whatsapp]
+  sender:
+    description: "the email address to use as sender"
+    required: true
+  reciepients:
+    required: true
+    description: "Provide a list of reciepients"
+  message: 
+    required: true
+    description: "the message to send out"
+    default: "new Notification from development team"
+  subject: 
+    required: false
+    description: "the subject of the notification"
+  credentials: 
+    required: true
+    description: "All the required credentils'
+outputs:
+  time: # id of output
+    description: 'Code Release or review date'
+runs:
+  using: 'node16'
+  main: './deplonon/main.js'
