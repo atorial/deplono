@@ -27,4 +27,4 @@ outputs:
     description: 'Code Release or review date'
 runs:
   using: 'node16'
-  main: './deplonon/main.js'
+  main: '.deplono/main.js'
