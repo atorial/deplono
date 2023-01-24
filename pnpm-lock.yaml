@@ -5,6 +5,7 @@ specifiers:
   '@actions/github': ^5.1.1
   '@commitlint/cli': ^17.4.2
   '@commitlint/config-conventional': ^17.4.2
+  '@vercel/ncc': github:vercel/ncc
   husky: ^8.0.0
   nodemailer: ^6.9.0
   standard-version: ^9.5.0
@@ -13,6 +14,7 @@ specifiers:
 dependencies:
   '@actions/core': 1.10.0
   '@actions/github': 5.1.1
+  '@vercel/ncc': github.com/vercel/ncc/d38b61955476b960242a540f26c24a994f241185
   nodemailer: 6.9.0
 
 devDependencies:
@@ -2038,3 +2040,10 @@ packages:
     resolution: {integrity: sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==}
     engines: {node: '>=10'}
     dev: true
+
+  github.com/vercel/ncc/d38b61955476b960242a540f26c24a994f241185:
+    resolution: {tarball: https://codeload.github.com/vercel/ncc/tar.gz/d38b61955476b960242a540f26c24a994f241185}
+    name: '@vercel/ncc'
+    version: 0.0.0-development
+    hasBin: true
+    dev: false

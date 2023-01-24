@@ -1,4 +1,5 @@
 name: 'deplono'
+author: 'Mitch Chanza'
 description: 'Development, testing and release notification for vigilant teams.'
 inputs:
   type:  # id of input
@@ -20,7 +21,7 @@ inputs:
     description: "the subject of the notification"
   credentials: 
     required: true
-    description: "All the required credentils'
+    description: "All the required credentils"
 outputs:
   time: # id of output
     description: 'Code Release or review date'
