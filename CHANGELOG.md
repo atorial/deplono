@@ -7,7 +7,39 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### Bug Fixes
 
+* build folder rename ([663a62c](https://github.com/atorial/deplono/commit/663a62c5690fec8d12d78d2f1e92feb4153ef87b))
 * main entry file parent folder name ([28b284b](https://github.com/atorial/deplono/commit/28b284b54a5d5b957836f34bde9d29553408c8d3))
+* npm bug fix ([afd0909](https://github.com/atorial/deplono/commit/afd0909178f883b52849fc7351b79524c1c72312))
+
+### [1.0.5](https://github.com/mokkapps/changelog-generator-demo/compare/v1.0.4...v1.0.5) (2023-01-24)
+
+
+### Bug Fixes
+
+* build folder rename ([663a62c](https://github.com/mokkapps/changelog-generator-demo/commits/663a62c5690fec8d12d78d2f1e92feb4153ef87b))
+
+### [1.0.4](https://github.com/mokkapps/changelog-generator-demo/compare/v1.0.3...v1.0.4) (2023-01-24)
+
+
+### Bug Fixes
+
+* npm bug fix ([afd0909](https://github.com/mokkapps/changelog-generator-demo/commits/afd0909178f883b52849fc7351b79524c1c72312))
+
+### [1.0.3](https://github.com/mokkapps/changelog-generator-demo/compare/v1.0.2...v1.0.3) (2023-01-24)
+
+
+### Chore
+
+* update workflow ([b2bf2b8](https://github.com/mokkapps/changelog-generator-demo/commits/b2bf2b8d3fc9ee23d3d56bb1a47aec1a7b262941))
+
+### [1.0.2](https://github.com/mokkapps/changelog-generator-demo/compare/v1.0.1...v1.0.2) (2023-01-24)
+
+
+### Chore
+
+* add cache strategy ([db0092d](https://github.com/mokkapps/changelog-generator-demo/commits/db0092dc6e1c26d7a3b4799ca92e39cf059e0cf0))
+* add imoji ([a50cac0](https://github.com/mokkapps/changelog-generator-demo/commits/a50cac0ef3afbc1923ede89c4e46139173ce9d06))
+* add needs build ([5007fd6](https://github.com/mokkapps/changelog-generator-demo/commits/5007fd69bfe349c91a5b95c23b9628e57872e9d6))
 
 ### [1.0.1](https://github.com/mokkapps/changelog-generator-demo/compare/v1.0.0...v1.0.1) (2023-01-24)
 
