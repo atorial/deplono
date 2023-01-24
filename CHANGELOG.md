@@ -2,6 +2,35 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.1.0](https://github.com/mokkapps/changelog-generator-demo/compare/v1.0.5...v1.1.0) (2023-01-24)
+
+
+### Features
+
+* add barel file for services and utils ([6f61e1c](https://github.com/mokkapps/changelog-generator-demo/commits/6f61e1cdc88039ce0605256fb21ccda7b6425f9f))
+* add dto ([fbc0104](https://github.com/mokkapps/changelog-generator-demo/commits/fbc0104d64033066984bf2216729ae39a18a10ea))
+* add mail service ([8283f1f](https://github.com/mokkapps/changelog-generator-demo/commits/8283f1fbd330298341f380eaad383bd2086fb8a5))
+* add secrets ([6b789b8](https://github.com/mokkapps/changelog-generator-demo/commits/6b789b800d65df4295873c10045872ec51e3647f))
+* add utils config file ([419abf2](https://github.com/mokkapps/changelog-generator-demo/commits/419abf2f2151b14cf8854e36b6657af9dfef9642))
+* implement main service ([9c0822e](https://github.com/mokkapps/changelog-generator-demo/commits/9c0822ee86b617475bb1e1fb78b98b0c7c1825ab))
+* use main service in the entry file ([50ccfb6](https://github.com/mokkapps/changelog-generator-demo/commits/50ccfb68983baaea9020f819b7cf4fe9e22bc839))
+
+
+### Chore
+
+* add different badges ([0501673](https://github.com/mokkapps/changelog-generator-demo/commits/0501673492577aa1a80efd50b7570323e96c3710))
+* add funding flag ([f187ac6](https://github.com/mokkapps/changelog-generator-demo/commits/f187ac6c221605377f6abd21d7c874094c34a233))
+* add status badge on readme ([6c01caa](https://github.com/mokkapps/changelog-generator-demo/commits/6c01caa14623fc6aac9ea75449e47a9fb9247151))
+* add styling ([cdbe34a](https://github.com/mokkapps/changelog-generator-demo/commits/cdbe34a8480ee9d24b02bf6f3d38a55e5a4634c9))
+* **main:** release 1.0.1 ([8fa6746](https://github.com/mokkapps/changelog-generator-demo/commits/8fa6746e95af3b7aaedb6cc9ecb43cbcc4c4dd17))
+* **main:** release 1.0.1 ([fc4c4c5](https://github.com/mokkapps/changelog-generator-demo/commits/fc4c4c527d31d328ec2d9875721abb415b73fb55))
+
+
+### Documentation
+
+* additional infor on docs ([f82f4f6](https://github.com/mokkapps/changelog-generator-demo/commits/f82f4f66824e59bed69f3ac5f00a99df670c5ad6))
+* update documentation ([6b61fc5](https://github.com/mokkapps/changelog-generator-demo/commits/6b61fc539dbb955309035a28845ed5d24f6083b7))
+
 ## [1.0.1](https://github.com/atorial/deplono/compare/v1.0.0...v1.0.1) (2023-01-24)
 
 
