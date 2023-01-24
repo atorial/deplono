@@ -19,7 +19,7 @@ This action is aimed at automating software development testing, release and and
  - [ ] Weekly reports of completed milestones/issues as well as planned work.
  - [ ] connect to azure Devops API for further reporting - especially to those whose workflow exteds to Azure Devops
  
- ## E-mail Inputs
+ ## 📤 SMTP Mail Server Settings
  
  ### Secrets - `TransportOptions`
  
@@ -40,5 +40,22 @@ This action is aimed at automating software development testing, release and and
   - `RECIPIENTS`: *required* - This is an array/ list of users you want to recieve the update - these can be testers, line managers as well as business decision makers..
 
 > there is no magic bullet in having a successful team other than making sure that the team gets updated on regular intervals and track their work accordingly.
+
+## ✉️ SMS Messaging  Functionality
+This feature enables SMS messaging between workflow runs and and any external process. The triger mechanism is from the main workflow run. it can be set to run on PR or on push even just a simple schedule.
+
+This Feature requires minimal configuration on your application or organization. All you need are the following credentials:
+1. authorized send email
+2. an api key to the prefered sms gateway. 
+This library was tested using the following SMS gateways 
+1. [BulkSMS](https://bulksms.co.za) in South Africa
+2. [SMS Global](https://smsglobal.com) - global
+3. [Twilio](https://twlio.com) - global
+
+## 💬 WhatsApp Messaging Functionality.
+This feature enables teams to have group communication and anouncements based on their work items. There are few things to get started, 
+1. Register on Facbook developers page
+2. Get application ID 
+3. register the ap id in the application
   
 
