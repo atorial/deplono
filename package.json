@@ -1,12 +1,16 @@
 {
   "name": "deplono",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
     "build": "npx tsc ",
     "prod": "pnpm build && ncc build .diplono/main.js --license licenses.txt",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "release": "standard-version",
+    "release:minor": "standard-version --release-as minor",
+    "release:patch": "standard-version --release-as patch",
+    "release:major": "standard-version --release-as major"
   },
   "keywords": [],
   "author": "",
