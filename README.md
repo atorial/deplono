@@ -1,6 +1,7 @@
 # 🦜 Deplono 
 >Dev team quick notifcatation and colaboration action.
 
+[![ci/cd release](https://github.com/atorial/deplono/actions/workflows/releaser.yml/badge.svg)](https://github.com/atorial/deplono/actions/workflows/releaser.yml)
 
 This action is aimed at automating software development testing, release and and deployment. It connects developers to decision makers, managers, collaborators and users. Managers can follow work done  in a sprint or daily tasks and make informed decisions on projects in their organization, they do not have to register a github account for that matter but they have full access to dentrimental information that concerns them.. 
 
