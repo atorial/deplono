@@ -1,0 +1,1 @@
+export {Deplono } from "./deplomo"
