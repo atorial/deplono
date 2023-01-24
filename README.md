@@ -33,7 +33,7 @@ This action is aimed at automating software development testing, release and and
   ___ 
   - `EMAIL_PORT` : *default*  `465` ` optional` - Authentication Port - if not provided the default port will be used.
 
-  ### Payload data `email body`
+  ### Inputs `email body`
   
   - `MESSAGE`: *optional* -  If not provided the message will be generated from your commit message and all details will be pulled from there.
   - `SUBJECT`: *optional* - We generate the subject from one of  commit message, therefore it is advisable to have good and well defined commit messages - use `conventional-commit messages` format.
@@ -56,6 +56,6 @@ This library was tested using the following SMS gateways
 This feature enables teams to have group communication and anouncements based on their work items. There are few things to get started, 
 1. Register on Facbook developers page
 2. Get application ID 
-3. register the ap id in the application
+3. Register the appId in the application
   
 
