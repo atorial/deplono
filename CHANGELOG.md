@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.5](https://github.com/mokkapps/changelog-generator-demo/compare/v1.0.4...v1.0.5) (2023-01-24)
+
+
+### Bug Fixes
+
+* build folder rename ([663a62c](https://github.com/mokkapps/changelog-generator-demo/commits/663a62c5690fec8d12d78d2f1e92feb4153ef87b))
+
 ### [1.0.4](https://github.com/mokkapps/changelog-generator-demo/compare/v1.0.3...v1.0.4) (2023-01-24)
 
 
