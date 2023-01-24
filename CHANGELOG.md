@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.0.1](https://github.com/atorial/deplono/compare/v1.0.0...v1.0.1) (2023-01-24)
+
+
+### Bug Fixes
+
+* build folder rename ([663a62c](https://github.com/atorial/deplono/commit/663a62c5690fec8d12d78d2f1e92feb4153ef87b))
+* main entry file parent folder name ([28b284b](https://github.com/atorial/deplono/commit/28b284b54a5d5b957836f34bde9d29553408c8d3))
+* npm bug fix ([afd0909](https://github.com/atorial/deplono/commit/afd0909178f883b52849fc7351b79524c1c72312))
+
 ### [1.0.5](https://github.com/mokkapps/changelog-generator-demo/compare/v1.0.4...v1.0.5) (2023-01-24)
 
 
