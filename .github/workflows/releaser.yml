@@ -23,6 +23,7 @@ jobs:
         run: pnpm build
   release-please:
     runs-on: ubuntu-latest
+    needs: build
     steps:
       - uses: google-github-actions/release-please-action@v3
         with:
