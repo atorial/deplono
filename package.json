@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tsc ",
+    "prod": "pnpm build && ncc build .diplono/main.js --license licenses.txt",
     "prepare": "husky install"
   },
   "keywords": [],
