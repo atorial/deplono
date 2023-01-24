@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.2](https://github.com/mokkapps/changelog-generator-demo/compare/v1.0.1...v1.0.2) (2023-01-24)
+
+
+### Chore
+
+* add cache strategy ([db0092d](https://github.com/mokkapps/changelog-generator-demo/commits/db0092dc6e1c26d7a3b4799ca92e39cf059e0cf0))
+* add imoji ([a50cac0](https://github.com/mokkapps/changelog-generator-demo/commits/a50cac0ef3afbc1923ede89c4e46139173ce9d06))
+* add needs build ([5007fd6](https://github.com/mokkapps/changelog-generator-demo/commits/5007fd69bfe349c91a5b95c23b9628e57872e9d6))
+
 ### [1.0.1](https://github.com/mokkapps/changelog-generator-demo/compare/v1.0.0...v1.0.1) (2023-01-24)
 
 
