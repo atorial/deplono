@@ -18,7 +18,7 @@ jobs:
           node-version: 16
           cache: npm
       - name: install dependencies
-        run: npn i -g @vercel/ncc && yarn
+        run: npm i -g @vercel/ncc && yarn
       - name: build application
         run: yarn prod
   release-please :
