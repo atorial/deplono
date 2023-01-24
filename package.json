@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "npx tsc ",
-    "prod": "pnpm build && ncc build .diplono/main.js --license licenses.txt",
+    "prod": "yarn build && ncc build .diplono/main.js --license licenses.txt",
     "prepare": "husky install",
     "release": "standard-version",
     "release:minor": "standard-version --release-as minor",
