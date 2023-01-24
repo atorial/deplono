@@ -1,0 +1,29 @@
+on:
+  push:
+    tags:
+      - "v*.*.*"
+  schedule:
+    - cron: "0 0 27 * *"
+name: ci/cd release
+jobs:
+  build:
+    name: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3
+      - name: setup node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16
+      - name: install dependencies
+        run: npm i pnpm && pnpm i 
+      - name: build application
+        run: pnpm build
+  release-please:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: google-github-actions/release-please-action@v3
+        with:
+          release-type: node
+          package-name: release-please-action
